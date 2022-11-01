@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const WebpackLighthousePlugin = require('webpack-lighthouse-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -11,6 +12,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
+    new WebpackLighthousePlugin({
+      url: 'http://localhost:8080'
+    })
   ],
   output: {
     filename: '[name].js',
