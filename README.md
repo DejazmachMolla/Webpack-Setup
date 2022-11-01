@@ -18,8 +18,8 @@
 To get a local copy up and running follow these simple example steps.
 - Clone the project on your local machine
 - Run `npm install` on the root directory
-- Run the server using `parcel index.html`
-- Open app on the url on which the server is running
+- Build the project using `npm run build`
+- Run the server using `npm start`
 
 
 ## Authors
@@ -43,7 +43,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks for the Luxon team
+- Thanks for the Webpack team
 
 ## 📝 License
 
