@@ -13,8 +13,8 @@ module.exports = {
       template: './src/index.html',
     }),
     new WebpackLighthousePlugin({
-      url: 'http://localhost:8080'
-    })
+      url: 'http://localhost:8080',
+    }),
   ],
   output: {
     filename: '[name].js',
